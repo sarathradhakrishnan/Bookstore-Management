@@ -17,6 +17,7 @@ public class Book {
         this.price = price;
         this.quantity = quantity;
     }
+    
 
     // Getter methods
     public int getBookId() {
@@ -58,6 +59,7 @@ public class Book {
 
     public void setQuantity(int quantity) {
         this.quantity = quantity;
+        System.out.print("");
     }
 
     @Override

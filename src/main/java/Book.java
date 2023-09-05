@@ -5,6 +5,10 @@ public class Book {
     private double price;
     private int quantity;
 
+    private void syso() {
+		// TODO Auto-generated method stub
+
+	}
     // Constructor
     public Book(int bookId, String title, String author, double price, int quantity) {
         this.bookId = bookId;
